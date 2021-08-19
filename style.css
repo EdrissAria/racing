@@ -1,0 +1,80 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.result1
+{
+    position: absolute;
+    top: 500px;
+    left: 800px;
+    font-size: 40pt;
+    opacity: 0;
+}
+.result2
+{
+    position: absolute;
+    left: 500px;
+    top: 500px;
+    font-size: 40pt;
+    opacity: 0;
+}
+span
+{
+    font-size: 50pt;
+    color: red;
+}
+.car1
+{
+    position: absolute;
+    left: -100px;
+    width: 400px;
+    height: 300px;
+    transform: rotateY(180deg);
+    z-index: 3;
+
+}
+.car2
+{
+    position: absolute;
+    left: -100px;
+    top: 200px;
+    width: 400px;
+    height: 300px;
+    z-index: 3;
+}
+#street
+{
+    position: absolute;
+    top: 170px;
+    width: 1900px;
+    height: 5px;
+    background: gray;
+    overflow: hidden;
+    z-index: 1;
+}
+ #street2
+{
+    position: absolute;
+    top: 370px;
+    width: 1900px;
+    height: 5px;
+    background: gray;
+    overflow: hidden;
+    z-index: 1;
+}
+.end
+{
+    position: absolute;
+    left: 1500px;
+    width: 100px;
+    height: 375px;
+    z-index: 2;
+}
+.start{
+    position: absolute;
+    width: 100px;
+    height: 375px;
+    z-index: 2;
+}

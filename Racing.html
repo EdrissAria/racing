@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" href="style.css"> 
+		<script type="text/javascript">
+		 	$(document).ready(function(){
+		 		$(document).on('keyup', function(event){
+		 			if(event.keyCode == 39){
+		 				$('#car4').css('left', '+=30px');
+		 			}
+		 			else if(event.keyCode == 37){
+		 				$('#car4').css('left', '-=30px');
+		 			}
+		 			if($('#car4').css('left') == "1400px"){
+		 				$('#win1').css('opacity', '1');
+		 			}
+
+		 	     })
+		 		$(document).on('keyup', function(event){
+		 			if(event.keyCode == 17){
+		 				$('#car5').css('left', '+=30px');
+		 			}
+		 			else if(event.keyCode == 16){
+		 				$('#car5').css('left', '-=30px');
+		 			}
+		 			if($('#car5').css('left') == "1400px"){
+		 				$('#win2').css('opacity', '1');
+		 			}
+
+		 	     })
+		 	})
+		</script>
+	</head>
+	<body>
+		<img class="start" src="image/start.png"/>
+		<img class="car1"src="image/c1.png" id="car4"/>
+		<div id="street"></div>
+		<img class="car2" src="image/c2.png" id="car5"/>
+		<div id="street2"></div>
+		<img class="end" src="image/end.png"/>
+		<p class="result1" id="win1"> Player <span>1</span> won!</p>
+		<p class="result2" id="win2"> Player <span>2</span> won!</p>
+	</body>
+</html>
