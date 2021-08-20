@@ -78,3 +78,13 @@ span
     height: 375px;
     z-index: 2;
 }
+.retry{
+    position: absolute;
+    left: 700px;
+    top: 90px; 
+    background-color: white;
+    font-size: 60px;
+    border: none;
+    color: rgb(238, 143, 18);
+    display: none;
+}
