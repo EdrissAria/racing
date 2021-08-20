@@ -15,10 +15,10 @@
         car2.style.left = y+"px";
         y = y + 30;
      }
-     if(car1.style.left === "1300px"){
+     if(car1.style.left === "1230px"){
          win1.style.opacity = '1'
      }
-     if(car2.style.left === "1300px"){
+     if(car2.style.left === "1230px"){
          win2.style.opacity = '1'
      }
      
