@@ -18,6 +18,9 @@
      if(car1.style.left === "1300px"){
          win1.style.opacity = '1'
      }
+     if(car2.style.left === "1300px"){
+         win2.style.opacity = '1'
+     }
      
  })
 
