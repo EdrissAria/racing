@@ -26,31 +26,3 @@
      }
      
  })
-
-
-//  $(document).ready(function(){
-//     $(document).on('keyup', function(event){
-//         if(event.keyCode == 39){
-//             $('#car4').css('left', '+=30px');
-//         }
-//         else if(event.keyCode == 37){
-//             $('#car4').css('left', '-=30px');
-//         }
-//         if($('#car4').css('left') == "1400px"){
-//             $('#win1').css('opacity', '1');
-//         }
-
-//      })
-//     $(document).on('keyup', function(event){
-//         if(event.keyCode == 17){
-//             $('#car5').css('left', '+=30px');
-//         }
-//         else if(event.keyCode == 16){
-//             $('#car5').css('left', '-=30px');
-//         }
-//         if($('#car5').css('left') == "1400px"){
-//             $('#win2').css('opacity', '1');
-//         }
-
-//      })
-// })
