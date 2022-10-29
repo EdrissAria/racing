@@ -1,7 +1,7 @@
-# racing
-racing game using html css javascript 
-# description 
-for moving first car press left ctl key
+# Racing
+Racing game using html css javascript 
+# Description 
+For moving first car press left ctl key
 for moving second car press right ctl key
-# live demo 
+# Live demo 
 https://EdrissAria.github.io/racing/
